@@ -1,7 +1,16 @@
-<mvc:View controllerName="com.lab2dev.firstapp.controller.Home"
-    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
-        <content />
+<mvc:View
+    controllerName="com.lab2dev.firstapp.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page id="page" title="{i18n>title}" >
+    <content>
+            <List id="_IDGenList" headerText="Products" headerLevel="H2">
+                <StandardListItem id="_IDGenStandardListItem" title="Produto 1" counter="7" />
+                <StandardListItem id="_IDGenStandardListItem1" title="Produto 2" counter="10" />
+                <StandardListItem id="_IDGenStandardListItem2" title="Produto 3" counter="5" />
+            </List>
+        </content>
     </Page>
 </mvc:View>
