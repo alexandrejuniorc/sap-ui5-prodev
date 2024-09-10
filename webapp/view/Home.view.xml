@@ -6,10 +6,17 @@
 >
     <Page id="page" title="{i18n>title}" >
     <content>
-            <List id="_IDGenList" headerText="Products" headerLevel="H2">
-                <StandardListItem id="_IDGenStandardListItem" title="Produto 1" counter="7" />
-                <StandardListItem id="_IDGenStandardListItem1" title="Produto 2" counter="10" />
-                <StandardListItem id="_IDGenStandardListItem2" title="Produto 3" counter="5" />
+            <List id="lista_produtos" headerText="Products" headerLevel="H2">
+                <StandardListItem type="Active" press="onPress" id="arroz" title="Arroz" counter="7" />
+                <StandardListItem type="Active" press="onPress" id="feijao" title="Feijão" counter="10" />
+                <StandardListItem type="Active" press="onPress" id="macarrao" title="Macarrão" counter="5" />
+                <StandardListItem type="Active" press="onPress" id="oleo" title="Óleo de Cozinha" counter="5" />
+                <StandardListItem type="Active" press="onPress" id="leite" title="Leite" counter="5" />
+                <StandardListItem type="Active" press="onPress" id="cafe" title="Café" counter="5" />
+                <StandardListItem type="Active" press="onPress" id="acucar" title="Açúcar" counter="5" />
+                <StandardListItem type="Active" press="onPress" id="sal" title="Sal" counter="5" />
+                <StandardListItem type="Active" press="onPress" id="farinha_trigo" title="Farinha de Trigo" counter="5" />
+                <StandardListItem type="Active" press="onPress" id="sabonete" title="Sabonete" counter="5" />
             </List>
         </content>
     </Page>
